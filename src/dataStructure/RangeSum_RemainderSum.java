@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-//백준#10986
+//백준 #10986
 public class RangeSum_RemainderSum {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
