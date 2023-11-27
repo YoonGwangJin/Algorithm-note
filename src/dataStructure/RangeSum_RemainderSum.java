@@ -22,7 +22,6 @@ public class RangeSum_RemainderSum {
         }
 
         //누적합 M으로 나눈 나머지 계산(인덱스가 0에서부터 i까지의 합이 0인 경우 answer++)
-
         for(int i = 0; i<N; i++){
             remainder[i] = inputAccumulate[i]%M;
             if(remainder[i] == 0) answer++;
